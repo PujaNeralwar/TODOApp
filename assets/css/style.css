@@ -1,1 +1,93 @@
+@import url('http://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    width:100%;
+    height:100vh;
+    padding:0px,130px;
+    font-family: "Open Sans",sans-serif;
+    background: linear-gradient(60deg,#cc5ffc,#8954ee);
+}
+main{
+    display: flex;
+    height: inherit;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.todo .addtodo{
+    padding:38px,30px;
+    margin-bottom: 20px;
+}
+.addtodo input{
+    font-size: 20px;
+    padding:10px 8px;
+    border-radius: 5px;
+    margin-right: 20px;
+    border: 2px solid #ccc;
+}
+.addtodo button{
+    border: none;
+    color:#fff;
+    font-size: 20px;
+    cursor: pointer;
+    padding:11px 22px;
+    border-radius: 5px;
+    background: #8052EC;
 
+}
+.addtodo button:hover {
+    background-color: #218838;
+}
+
+.content h1{
+    color:#fff;
+    font-size: 100px;
+    margin-bottom: 25px;
+    text-shadow: 0px 0px 5px #616161;
+}
+.content h2{
+    font-size: 42px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+.shadow{
+    background: #fff;
+    padding: 25px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #616161;
+}
+#task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.task-name {
+    flex-grow: 1;
+    font-size: 20px;
+    /* padding:10px 8px; */
+}
+
+.task-actions button {
+    border: none;
+    color:#fff;
+    font-size: 20px;
+    cursor: pointer;
+    padding:11px 22px;
+    border-radius: 5px;
+    background: #8052EC;
+}
+.task-actions button:hover {
+    background-color: #218838;
+}
